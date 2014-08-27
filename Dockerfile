@@ -1,5 +1,7 @@
 FROM phusion/baseimage:0.9.12
 
+CMD ["/sbin/my_init"]
+
 MAINTAINER Ryan Moore <ryan.moore@greyrocksoft.com>
 
 RUN apt-get update -y
